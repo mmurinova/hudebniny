@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../hudebniny - kopie"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "hudebniny"
+	}
+}
