@@ -1,0 +1,16 @@
+{
+  "name": "hudebniny",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000h\u0000u\u0000d\u0000e\u0000b\u0000n\u0000i\u0000n\u0000y\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
