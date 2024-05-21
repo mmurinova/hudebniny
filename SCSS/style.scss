@@ -41,13 +41,12 @@ body {
     padding-bottom: 10%;
 }
 .prodej__item {
-   contain: cover;
+    object-fit: contain;
    max-width: 100%;  
    max-height:100%;
-   max-width: 100%;
 }
 .prodej__item1 {
-    contain: cover;
+    object-fit: contain;
     max-height:100%;
     max-width: 100%;
 }
