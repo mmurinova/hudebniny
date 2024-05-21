@@ -42,10 +42,13 @@ body {
 .prodej__item {
   contain: cover;
   max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .prodej__item1 {
   contain: cover;
+  max-height: 100%;
   max-width: 100%;
 }
 
@@ -225,6 +228,8 @@ input[type=submit]:hover {
   grid-column: 1;
   -o-object-fit: contain;
      object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .kontejner__title {
@@ -613,6 +618,8 @@ h2 {
     grid-column: 1;
     -o-object-fit: contain;
        object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
   }
   .opravy__text {
     font-size: 2rem;
@@ -1009,7 +1016,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    padding: 5%;
+    padding: 2%;
     margin: 2%;
   }
   .prodej__item {
@@ -1017,6 +1024,8 @@ h2 {
     grid-column: 1;
     -o-object-fit: contain;
        object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
   }
   .menu__list {
     margin: 0;
@@ -1024,6 +1033,7 @@ h2 {
     display: flex;
     justify-content: right;
     list-style: none;
+    max-width: 100%;
   }
   .menu {
     background-color: white;
