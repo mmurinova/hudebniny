@@ -9,13 +9,13 @@ body {
 }
 .menu {
     background-color: white;
-    font-size: 0.9rem;
+    font-size: 0.4rem;
     display: flex;
     justify-content: space-between;
 }
     .menu__list {
         margin: 0;
-        padding: 1px;
+        padding: 0.5px;
         display: flex;
         justify-content: right;
         list-style: none;
@@ -531,6 +531,14 @@ font-size: 1rem;
 
  
 @media screen and (min-width: 900px) and (max-width: 1300px) {
+
+    .menu {
+        background-color: white;
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .kontejner__grid {
         display: grid;
         grid-template-columns: 1fr;
