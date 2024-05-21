@@ -63,6 +63,7 @@ form {
 label {
   margin-bottom: 10px;
   align-items: right;
+  border-radius: 8px;
 }
 
 input, textarea {
@@ -71,6 +72,7 @@ input, textarea {
   border: none;
   width: 60%;
   background-color: #E1F8D9;
+  border-radius: 8px;
 }
 
 input[type=submit] {
