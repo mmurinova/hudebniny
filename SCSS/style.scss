@@ -155,7 +155,7 @@ form {
 
  .reklama_item--second { 
     @media screen and (max-width: 900px)  {
-        max-width:250px;
+        max-width:100px;
         
     }
     
@@ -164,14 +164,14 @@ form {
 .reklama_item--third
 { 
     @media screen and (max-width: 900px)  {
-        max-width:250px;
+        max-width:100px;
         
     }
     
      }
 .kontakt__item{ 
     @media screen and (max-width: 900px)  {
-        max-width:250px;
+        max-width:100px;
         
     }
     
@@ -179,14 +179,14 @@ form {
 
 .image__grid--osobasecond { 
     @media screen and (max-width: 900px)  {
-        max-width:250px;
+        max-width:100px;
         
     }
     
      }
 .image__grid--osobafirst { 
     @media screen and (max-width: 900px)  {
-        max-width:250px;
+        max-width:100px;
         
     }
  }
@@ -196,7 +196,7 @@ form {
     grid-template-rows: repeat(1, 1fr);
     padding: 2%;
     gap: 1%;
-    justify-content: center;
+    place-content: center;
 }
 
 .prodej__item {
@@ -575,7 +575,7 @@ font-size: 1rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding: 2%;
-    justify-content: center;
+    place-content: center;
 }
 
 .prodej__item {
@@ -1034,7 +1034,7 @@ h2 {
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(3, 1fr);
                 padding: 2%;
-                justify-content: center;
+                place-content: center;
             }
             
             .prodej__item {
