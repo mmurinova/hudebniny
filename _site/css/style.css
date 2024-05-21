@@ -30,6 +30,10 @@ body {
   font-weight: 150;
 }
 
+.prodej__grid {
+  padding: 5%;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -184,9 +188,9 @@ input[type=submit]:hover {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  padding: 10%;
-  gap: 1%;
-  margin: 10%;
+  padding: 5%;
+  margin: 2%;
+  gap: 1;
 }
 
 .prodej__item {
@@ -574,8 +578,8 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    padding: 10%;
-    margin: 10%;
+    padding: 5%;
+    margin: 2%;
   }
   .prodej__item {
     grid-row: 1;
@@ -978,8 +982,8 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    padding: 10%;
-    margin: 10%;
+    padding: 5%;
+    margin: 2%;
   }
   .prodej__item {
     grid-row: 1;
