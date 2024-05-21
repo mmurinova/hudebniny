@@ -38,6 +38,7 @@ body {
     grid-template-rows: 1fr;
     gap:1%;
     padding: 4%;
+    padding-bottom: 10%;
 }
 .prodej__item {
    contain: cover;
@@ -62,14 +63,18 @@ form {
   label {
     margin-bottom: 10px;
     align-items: right;
+    border-radius: 8px;
   }
-  
+
+
+  }
   input, textarea {
     margin-bottom: 20px;
     padding: 10px;
     border: none;
     width: 60%;
     background-color:$color-primary ;
+    border-radius: 8px;
   }
   
   input[type="submit"] {
@@ -94,6 +99,7 @@ form {
   
   }
   
+
   .opravy__text {
     padding-left: 5%;
     font-weight: 200;
