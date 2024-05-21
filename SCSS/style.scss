@@ -189,7 +189,7 @@ form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    padding: 1%;
+    padding: 10%;
     gap: 1%;
     place-content: center;
 }
@@ -573,7 +573,7 @@ font-size: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    padding: 1%;
+    padding: 10%;
     place-content: center;
 }
 
