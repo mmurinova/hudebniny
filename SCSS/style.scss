@@ -194,7 +194,7 @@ form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    padding: 2%;
+    padding: 5%;
     gap: 1%;
     place-content: center;
 }
@@ -1033,7 +1033,7 @@ h2 {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(3, 1fr);
-                padding: 2%;
+                padding: 5%;
                 place-content: center;
             }
             
