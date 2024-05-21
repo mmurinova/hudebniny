@@ -301,7 +301,7 @@ h2 {
 }
 
 .opravy__text {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 200;
 }
 
@@ -336,15 +336,16 @@ h2 {
   text-align: center;
   border-style: none;
   border-radius: 10px;
-  max-width: 30%;
-  max-height: 20%;
+  max-width: 20%;
+  max-height: 10%;
   text-decoration: none;
   color: #25588B;
   font-size: 100%;
-  padding: 2%;
+  padding: 1%;
   margin-left: 20%;
   margin-top: 2%;
   margin-bottom: 4%;
+  font-weight: 100;
 }
 
 .button--first {
