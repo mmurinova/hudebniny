@@ -194,7 +194,7 @@ form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    padding: 5%;
+    padding: 1%;
     gap: 1%;
     place-content: center;
 }
@@ -308,7 +308,7 @@ margin-left: 1rem;
             padding: 2%;
             margin-left: 20%;
             margin-top: 2%;
-            margin-bottom: 2%;
+            margin-bottom: 4%;
         }
     .button--first {
         grid-column: 1;
@@ -574,7 +574,7 @@ font-size: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    padding: 2%;
+    padding: 1%;
     place-content: center;
 }
 
@@ -654,9 +654,6 @@ grid-row: 2;
     }
     .box__list--first {
         font-size: 0.9rem;
-        margin-left: 5%;
-        margin-bottom: 30%;
-    }
     
     .box__title--second {
         margin-right: 15%;
@@ -688,6 +685,7 @@ grid-row: 2;
         font-size: 0.9rem;
         padding: 1rem;
         margin-left: 40%;
+        margin-left: 3%;
     }
     .button__opravy {
         justify-content: space-between;
@@ -1033,7 +1031,7 @@ h2 {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(3, 1fr);
-                padding: 5%;
+                padding: 1%;
                 place-content: center;
             }
             
