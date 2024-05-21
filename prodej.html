@@ -37,11 +37,11 @@ layout: hlavni.njk
     <img src="/images/stare1.jpg" alt="nástroj" class="prodej__item1">
 </div>
 
-<div class="title">
+<div class="title title__prodej">
     <h2>DOTAZ</h2>
 </div>
 
-<form id="form">
+<form id="formopravy">
     <label for="name">Jméno:</label>
     <input type="text" id="name" name="Jméno"><br><br>
     <label for="email">Email:</label>
@@ -50,6 +50,7 @@ layout: hlavni.njk
     <input type="tel" id="phone" name="phone"><br><br>
     <label for="message">Text zprávy:</label>
     <textarea id="message" name="message"></textarea><br><br>
-    <input type="file" id="file" name="file"><br><br>
-    <input type="submit" value="Odeslat">
+    <input type="file" id="file" name="file" class="file"><br><br>
+    <input type="submit" value="Odeslat" class="send">
   </form>
+
