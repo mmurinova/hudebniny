@@ -312,7 +312,7 @@ h2 {
   padding: 2%;
   margin-left: 20%;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 
 .button--first {
@@ -647,8 +647,6 @@ h2 {
   }
   .box__list--first {
     font-size: 0.9rem;
-    margin-left: 5%;
-    margin-bottom: 30%;
   }
   .box__title--second {
     margin-right: 15%;
@@ -677,6 +675,7 @@ h2 {
     font-size: 0.9rem;
     padding: 1rem;
     margin-left: 40%;
+    margin-left: 3%;
   }
   .button__opravy {
     justify-content: space-between;
