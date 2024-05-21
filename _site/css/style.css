@@ -174,13 +174,13 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 900px) {
   .image__grid--osobasecond {
-    max-width: 100px;
+    max-width: 200px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .image__grid--osobafirst {
-    max-width: 100px;
+    max-width: 200px;
   }
 }
 
