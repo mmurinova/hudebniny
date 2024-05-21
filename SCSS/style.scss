@@ -196,6 +196,7 @@ form {
     grid-template-rows: repeat(1, 1fr);
     padding: 2%;
     gap: 1%;
+    justify-content: center;
 }
 
 .prodej__item {
@@ -574,6 +575,7 @@ font-size: 1rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding: 2%;
+    justify-content: center;
 }
 
 .prodej__item {
@@ -1032,6 +1034,7 @@ h2 {
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(3, 1fr);
                 padding: 2%;
+                justify-content: center;
             }
             
             .prodej__item {
