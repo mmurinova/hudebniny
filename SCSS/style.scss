@@ -154,18 +154,12 @@ form {
 }
 
 .reklama_item--first { 
-@media screen and (max-width: 900px)  {
-    max-width:250px;
-    
-}
+    max-width: 100%;
 
  }
 
  .reklama_item--second { 
-    @media screen and (max-width: 900px)  {
-        max-width:100px;
-        
-    }
+    max-width: 100%;
     
      }
 
@@ -178,26 +172,19 @@ form {
     
      }
 .kontakt__item{ 
-    @media screen and (max-width: 900px)  {
-        max-width:100px;
-        
-    }
-    
-     }
-
-.image__grid--osobasecond { 
-    @media screen and (max-width: 900px)  {
-        max-width:200px;
-        
-    }
-    
-     }
-.image__grid--osobafirst{ 
-    @media screen and (max-width: 900px)  {
-        max-width:200px;
-        
-    }
+    max-width: 100%;
  }
+.image__grid--osobasecond { 
+    max-width: 100%;
+        
+    }
+
+     
+.image__grid--osobafirst{ 
+    max-width: 100%;
+        
+    }
+ 
 .prodej__grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -297,7 +284,7 @@ margin-left: 1rem;
 
     .image--small {
             grid-column: 2;
-            grid-row: 1/ span 5;
+            grid-row: 2/ span 5;
             margin:0;
             max-width: 100%;
      }
@@ -398,6 +385,7 @@ margin-left: 1rem;
 .kontejner__item--contact {
     padding-bottom: 1%;
     object-fit: cover;
+    max-width: 100%;
       }
 
 .kontakt__contact {
@@ -488,6 +476,7 @@ background-color:$color-primary;
 .reklama_item--third {
     grid-row: 2;
     grid-column: 2;
+    max-width: 100%;
     
 }
 .osoba__text--second {
@@ -765,6 +754,7 @@ min-width: 120px;
 .kontejner__item--contact{
 grid-column: 2;
 grid-row: 1/ span 3;
+max-width: 100%;
 }
 
 .kontakt__contact {
@@ -993,6 +983,7 @@ h2 {
     .kontejner__item--contact{
         grid-column: 2;
         grid-row: 1/  span 3;
+        max-width: 100%;
         }
 
 
@@ -1043,7 +1034,7 @@ h2 {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(3, 1fr);
-                padding: 1%;
+                padding: 10%;
                 place-content: center;
             }
             
