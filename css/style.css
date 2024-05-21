@@ -147,8 +147,7 @@ input[type=submit]:hover {
   z-index: 1;
   -o-object-fit: cover;
      object-fit: cover;
-  max-height: -moz-fit-content;
-  max-height: fit-content;
+  max-height: 80%;
 }
 
 .header__image--first {
