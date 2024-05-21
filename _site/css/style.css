@@ -7,7 +7,9 @@ body {
 
 .menu {
   background-color: white;
-  font-size: 1rem;
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu__list {
@@ -19,8 +21,7 @@ body {
 }
 
 .menu__item {
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100%;
 }
 
 form {
@@ -61,6 +62,11 @@ input[type=submit]:hover {
   background-color: #E1F8D9;
 }
 
+.opravy__text {
+  padding-left: 5%;
+  font-weight: 200;
+}
+
 .logo {
   margin: 0;
   padding: 1px;
@@ -70,6 +76,10 @@ input[type=submit]:hover {
   font-size: 1rem;
   place-content: left;
   text-align: left;
+}
+
+img {
+  width: auto;
 }
 
 .menu__link {
@@ -142,6 +152,42 @@ input[type=submit]:hover {
   grid-row: 2;
 }
 
+@media screen and (max-width: 900px) {
+  .reklama_item--first {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .reklama_item--second {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .reklama_item--third {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .kontakt__item {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .image__grid--osobasecond {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .image__grid--osobafirst {
+    max-width: 250px;
+  }
+}
+
 .prodej__grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -209,7 +255,6 @@ input[type=submit]:hover {
 h2 {
   font-size: 2rem;
   font-weight: 200;
-  letter-spacing: 8px;
   padding-left: 2%;
 }
 
@@ -225,6 +270,11 @@ h2 {
   font-size: 1em;
   padding-bottom: 6rem;
   margin-left: 1rem;
+}
+
+.opravy__text {
+  font-size: 1rem;
+  font-weight: 200;
 }
 
 .box__title--second {
@@ -265,6 +315,7 @@ h2 {
   padding: 2%;
   margin-left: 20%;
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .button--first {
@@ -410,7 +461,7 @@ h2 {
 .box {
   background-color: #E1F8D9;
   padding: 2%;
-  max-width: 60%;
+  max-width: 80%;
   border-radius: 0px 20px 20px 0;
 }
 
@@ -528,6 +579,10 @@ h2 {
     -o-object-fit: contain;
        object-fit: contain;
   }
+  .opravy__text {
+    font-size: 2rem;
+    font-weight: 200;
+  }
   .kontejner__title {
     font-size: 1em;
     font-family: "Libre Franklin", sans-serif;
@@ -583,9 +638,6 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr repeat(10, 0.1fr);
   }
-  h2 {
-    font-size: 3rem;
-  }
   .box__title--first {
     margin-left: 10%;
   }
@@ -615,9 +667,6 @@ h2 {
     grid-row: 2/span 4;
     z-index: 1;
   }
-  .opravy__list {
-    font-size: 10rem;
-  }
   .button {
     text-decoration: none;
     color: #25588B;
@@ -625,8 +674,11 @@ h2 {
     padding: 1rem;
     margin-left: 40%;
   }
+  .button__opravy {
+    justify-content: space-between;
+  }
   ul {
-    margin-bottom: 30%;
+    margin-bottom: 20%;
   }
   .button--first {
     grid-column: 1;
@@ -737,6 +789,11 @@ h2 {
     font-weight: 150;
     letter-spacing: 6px;
   }
+  .opravy__list {
+    font-size: 2rem;
+    padding-left: 5%;
+    font-weight: 150;
+  }
 }
 @media screen and (min-width: 1300px) {
   .menu__link {
@@ -749,13 +806,18 @@ h2 {
     padding: 10px;
     width: 40%;
   }
+  .opravy__list {
+    font-size: 2rem;
+    padding-left: 5%;
+    font-weight: 150;
+  }
   .grid--second {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr repeat(10, 0.1fr);
     place-content: center;
   }
   h2 {
-    font-size: 4.67rem;
+    font-size: 2.5rem;
   }
   .box__title--first {
     margin-left: 3rem;
