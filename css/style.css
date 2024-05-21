@@ -350,11 +350,13 @@ h2 {
 .button--first {
   grid-column: 1;
   grid-row: 2;
+  margin-top: 2%;
 }
 
 .button-second {
   grid-column: 1;
   grid-row: 4;
+  margin-top: 2%;
 }
 
 .section__backround--green {
