@@ -77,7 +77,8 @@ form {
 }
 
 img {
-    width: fit-content;
+    contain: content;
+    width: auto;
 }
 
 .menu__link {
