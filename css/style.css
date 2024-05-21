@@ -48,6 +48,10 @@ body {
   max-width: 100%;
 }
 
+.formoopravy {
+  border-radius: 8px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -71,15 +75,17 @@ input, textarea {
 input[type=submit] {
   background-color: #E1F8D9;
   color: #25588B;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border: none;
-  border-radius: 5px;
-  width: 20%;
+  border-radius: 10px;
+  width: 30%;
 }
 
 input[type=file] {
   align-items: left;
-  width: 20%;
+  width: 30%;
+  padding: 20px 20px;
+  border-radius: 10px;
 }
 
 input[type=submit]:hover {
