@@ -689,7 +689,7 @@ h2 {
     justify-content: space-between;
   }
   ul {
-    margin-bottom: 20%;
+    margin-bottom: 5%;
   }
   .button--first {
     grid-column: 1;
