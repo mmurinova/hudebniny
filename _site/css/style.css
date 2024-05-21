@@ -78,10 +78,6 @@ input[type=submit]:hover {
   text-align: left;
 }
 
-img {
-  width: auto;
-}
-
 .menu__link {
   display: block;
   padding: 5px 5px;
