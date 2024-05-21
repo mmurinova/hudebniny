@@ -33,15 +33,19 @@ body {
 
 .prodej__grid {
     padding: 5%;
+    max-width: 100%;
 }
 .prodej__item {
     padding: 1%;
-    max-width: 100%;
+   contain: cover
+   max-width: 100%;
 
 }
 
 .prodej__item1 {
     padding: 100%;
+    contain: cover;
+    max-width: 100%;
 }
 
 form {
