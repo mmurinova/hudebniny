@@ -186,7 +186,7 @@ input[type=submit]:hover {
   grid-template-rows: repeat(1, 1fr);
   padding: 10%;
   gap: 1%;
-  place-content: center;
+  margin: 10%;
 }
 
 .prodej__item {
@@ -575,7 +575,7 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding: 10%;
-    place-content: center;
+    margin: 10%;
   }
   .prodej__item {
     grid-row: 1;
@@ -979,7 +979,7 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding: 10%;
-    place-content: center;
+    margin: 10%;
   }
   .prodej__item {
     grid-row: 1;
