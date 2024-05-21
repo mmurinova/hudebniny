@@ -31,19 +31,19 @@ body {
     font-weight: 150;
 }
 
+
 .prodej__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap:1%;
     padding: 5%;
-    max-width: 100%;
 }
 .prodej__item {
-    padding: 1%;
-   contain: cover
-   max-width: 100%;
-
+   contain: cover;
+   max-width: 100%;  
 }
-
 .prodej__item1 {
-    padding: 100%;
     contain: cover;
     max-width: 100%;
 }
